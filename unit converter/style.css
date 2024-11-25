@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 185, 194);
+
+}
+
+.input_box {
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(168, 143, 192);
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.input_box input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
